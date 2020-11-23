@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/.pio/build/uno/firmware.elf",
+            "projectEnvName": "uno",
+            "toolchainBinDir": "/Users/tiagovale/.platformio/packages/toolchain-atmelavr/bin",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/.pio/build/uno/firmware.elf",
+            "projectEnvName": "uno",
+            "toolchainBinDir": "/Users/tiagovale/.platformio/packages/toolchain-atmelavr/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Mac",
+            "macFrameworkPath": [],
+            "includePath": [
+                "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/include",
+                "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/src",
+                "/Users/tiagovale/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/include",
+                    "/Volumes/Disco Tiago 700/Ficheiros/MIEEC/MIEEC - 3ºA - 1ºS/Sistemas Baseados em Microprocessadores/Projeto Final/Final/Versão Final/projeto_final_tiago_anastasia/src",
+                    "/Users/tiagovale/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=50003",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/tiagovale/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
